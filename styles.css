@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+  font-family: 'digital-7';
+    src: url('font/digital-7.ttf');
+  }
+  body {
+    font-family: 'digital-7', sans-serif;
+    background-color: #343541;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  #app-con {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #stopWatch {
+    
+    font-size: 7rem;
+    margin-bottom: 20px;
+    color: #ffc107;
+  }
+  
+  .stopWatch-btn {
+    margin: 10px;
+    font-size: 1.5rem;
+    color: #ffc107;
+    font-family: 'Bruno Ace', sans-serif;
+  }
+  
+  /* style the buttons */
+  .stopWatch-btn {
+    color: #ffc107;
+    background-color: #fff;
+    border: 2px solid #ffc107;
+    transition: all 0.3s ease;
+  }
+  
+  .stopWatch-btn:hover {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  /* apply bootstrap utility classes for additional styling */
+  .focus-ring {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem;
+  }
+  
+  .focus-ring-warning {
+    box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.5);
+  }
+  
+  .py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  
+  .px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  .text-decoration-none {
+    text-decoration: none !important;
+  }
+  
+  .border {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.25rem;
+  }
+  .buttons-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttons-container button {
+    margin: 0 10px;
+  }
